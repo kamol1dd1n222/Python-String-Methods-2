@@ -1,4 +1,5 @@
-text = input("Text:  ")
-search = input("Matn: ")
+text = input("Matn: ")
+word = input("Qidirilayotgan so'z: ")
 text = text.lower()
-search  = search.lower()
+word = word.lower()
+print(text.index(word))
